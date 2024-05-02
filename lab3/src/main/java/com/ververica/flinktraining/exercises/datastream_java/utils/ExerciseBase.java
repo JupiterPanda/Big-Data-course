@@ -28,8 +28,8 @@ public class ExerciseBase {
 	public static SinkFunction out = null;
 	public static int parallelism = 4;
 
-	public final static String pathToRideData = "/Users/darkh/Documents/GitHub/big_data_lab/lab3/useful_gz/nycTaxiRides.gz";
-	public final static String pathToFareData = "/Users/darkh/Documents/GitHub/big_data_lab/lab3/useful_gz/nycTaxiFares.gz";
+	public final static String pathToRideData = "E:/Иван/уник/big_data_lab-main/lab3/useful_gz/nycTaxiRides.gz";
+	public final static String pathToFareData = "E:/Иван/уник/big_data_lab-main/lab3/useful_gz/nycTaxiFares.gz";
 
 	public static SourceFunction<TaxiRide> rideSourceOrTest(SourceFunction<TaxiRide> source) {
 		if (rides == null) {
